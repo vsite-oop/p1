@@ -25,15 +25,15 @@ namespace vsite::oop::p1 {
     }
 
     std::string f4(int a) {
-        return typeid(a).name();
+        return "int";
     }
 
     std::string f4(bool a) {
-        return typeid(a).name();
+        return "bool";
     }
 
     std::string f4(double a) {
-        return typeid(a).name();
+        return "double";
     }
 
     bool f5(std::string& s, int x) {
@@ -47,8 +47,13 @@ namespace vsite::oop::p1 {
     }
 
 
-    void f6(int x, int y, std::stringstream& ss) {
+    void f6(int x, int y, std::ostream& ss) {
         ss << x << "\n" << y;
     }
 
 } // namespace
+
+//todo commit
+//
+// izmjena typeid u const string
+// izmjena f6 stringstream u ostream

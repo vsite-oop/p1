@@ -21,6 +21,6 @@ namespace vsite::oop::p1
 
     bool f5(std::string& s, int x);
 
-    void f6(int x, int y, std::stringstream& ss);
+    void f6(int x, int y, std::ostream& ss);
 
 }
