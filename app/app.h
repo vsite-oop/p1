@@ -2,6 +2,7 @@
 
 #include <string>
 #include <iostream>
+#include <ostream>
 
 namespace vsite::oop::p1
 {
@@ -28,7 +29,7 @@ namespace vsite::oop::p1
 	void f6(
 		const int x,
 		const int y,
-		std::stringstream& ss
+		std::ostream& ss
 	);
 
 }

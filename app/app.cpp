@@ -3,7 +3,7 @@
 #include <format>
 #include <cmath>
 #include <complex>
-#include <numeric>
+#include <ostream>
 
 namespace vsite::oop::p1 {
 
@@ -12,12 +12,12 @@ namespace vsite::oop::p1 {
 	*/
 	double f1(const int x, const int y)
 	{
-		return std::pow(static_cast<int>(x), static_cast<double>(y));
+		return std::pow(x, y);
 	}
 
 	bool f2(const bool expression)
 	{
-		return not expression;
+		return  !expression;
 	}
 
 
@@ -50,7 +50,7 @@ namespace vsite::oop::p1 {
 		return true;
 	}
 
-	void f6(const int x, const int y, std::stringstream& ss)
+	void f6(const int x, const int y, std::ostream& ss)
 	{
 		ss << std::format("{}\n{}", x, y);
 	}
