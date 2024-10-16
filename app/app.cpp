@@ -54,5 +54,5 @@ namespace vsite::oop::p1 {
 	{
 		ss << std::format("{}\n{}", x, y);
 	}
-
+	//
 } // namespace
