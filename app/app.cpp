@@ -49,4 +49,5 @@ namespace vsite::oop::p1 {
 
 
 
+
 } // namespace
