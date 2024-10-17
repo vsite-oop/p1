@@ -28,6 +28,4 @@ namespace vsite::oop::p1
 
 	//f6
 	void f6(int a, int b, std::ostream& os);
-
-
 }

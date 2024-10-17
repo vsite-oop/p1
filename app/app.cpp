@@ -47,7 +47,4 @@ namespace vsite::oop::p1 {
 		os << a << '\n' << b;
 	}
 
-
-
-
 } // namespace
